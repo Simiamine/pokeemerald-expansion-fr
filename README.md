@@ -14,10 +14,32 @@
 
  [![](https://img.shields.io/github/all-contributors/rh-hideout/pokeemerald-expansion/upcoming)](CREDITS.md)
 
-### 🇫🇷 Remerciements & Crédits de la version Française
+### 🇫🇷 Projet pokeemerald-expansion-fr
+
 Ce projet (`pokeemerald-expansion-fr`) combine le moteur moderne Gen 9 de **RH-Hideout** avec la traduction française officielle de Pokémon Émeraude :
 - **RHH (ROM Hacking Hideout)** & **DizzyEgg** pour le projet de décompilation étendu [`pokeemerald-expansion`](https://github.com/rh-hideout/pokeemerald-expansion/).
 - **kleeenexfeu** et les contributeurs du projet [`pokeemerald-french`](https://github.com/kleeenexfeu/pokeemerald-french) pour le travail colossal d'extraction et d'adaptation des scripts et dialogues originaux en français.
+
+#### 📊 Avancement de la Traduction Française
+
+| Élément | Progression | Détails |
+| :--- | :---: | :--- |
+| **Pokémon (Gen 1 à 9)** | **100 %** | 1 025 espèces en noms officiels français |
+| **Capacités / Attaques** | **100 %** | 918 noms d'attaques en français officiel |
+| **Objets & CT/CS** | **87,3 %** | 763 objets en français officiel |
+| **Talents (*Abilities*)** | **99,0 %** | 311 talents en français officiel |
+| **Types & Natures** | **100 %** | 19 types et 25 natures officielles |
+| **Classes de Dresseurs** | **100 %** | 115 classes de dresseurs en français (*Montagnard, Gamin, etc.*) |
+| **Dialogues & Histoire** | **96,1 %** | 3 701 blocs de dialogues officiels de l'aventure |
+| **Interface & Menus** | **95,8 %** | 1 013 textes système (menus Start, Sac, Sauvegarde, PC...) |
+| **Messages de combat** | **80,5 %** | 306 phrases textuelles de combat (*Super efficace, Critique, etc.*) |
+| **Descriptions détaillées** | 0 % | Paragraphes secondaires dans le Pokédex/Sac |
+
+> **Ressenti en jeu : ~97 % en français** (Global brut textuel : **77,9 %**).
+
+#### 💾 Compatibilité des Sauvegardes
+> **100% Compatible** : Les sauvegardes (`.sav`) ne stockent que les identifiants numériques (ID du Pokémon, ID des attaques, niveau, coordonnées...). Traduire du texte ou des descriptions ultérieurement ne modifie jamais la structure binaire de la sauvegarde. Tu pourras donc mettre à jour la ROM à tout moment sans jamais perdre ta progression !
+
 
 If you use **`pokeemerald-expansion`**, please credit **RHH (Rom Hacking Hideout)**. Optionally, include the version number for clarity.
 
