@@ -345,11 +345,11 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hello, this is the EXCHANGE SERVICE\n"
-	.string "CORNER.\p"
-	.string "We exchange the Battle Points you\n"
-	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+	.string "Bonjour! Vous êtes au SERVICE\n"
+	.string "D’ECHANGE.\p"
+	.string "Nous échangeons vos POINTS DE COMBAT\n"
+	.string "contre de magnifiques prix.\p"
+	.string "Veuillez choisir un objet.$"
 
 @ Unused
 BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
@@ -360,61 +360,60 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmPurchase:
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
-	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string "Merci!\n"
+	.string "Ce sera envoyé chez vous, sur votre PC.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
-	.string "Here is your prize!$"
+	.string "Voici votre prix!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
-	.string "I'm so sorry…\n"
-	.string "You don't have enough Battle Points…$"
+	.string "Je suis désolée, mais vous n’avez pas\n"
+	.string "assez de POINTS DE COMBAT…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
-	.string "I'm so sorry…\n"
-	.string "Your PC appears to be full…$"
+	.string "Je suis désolée, mais votre PC semble\n"
+	.string "être plein…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
-	.string "I'm so sorry…\n"
-	.string "You don't have space to hold it…$"
+	.string "Je suis désolée, mais vous n’avez pas\n"
+	.string "assez de place…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
-	.string "Thank you very much.\p"
-	.string "Please visit us when you have\n"
-	.string "saved up Battle Points.$"
+	.string "Merci de votre visite.\n"
+	.string "Revenez quand vous voulez.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls:
-	.string "Oh, they're so nice!\n"
-	.string "I wish I had them!\l"
-	.string "Cute cushions!\l"
-	.string "Big plush DOLLS!\l"
-	.string "Little plush DOLLS!\l"
-	.string "I wish I had them all!$"
+	.string "Oh, ce que c’est beau!\n"
+	.string "J’aimerais tout avoir!\l"
+	.string "Les jolis COUSSINS!\l"
+	.string "Les grosses POUPEES!\l"
+	.string "Les petites POUPEES!\l"
+	.string "J’aimerais tout avoir!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
-	.string "Leave it to your mommy!\p"
-	.string "If it's anything you want, I'll go\n"
-	.string "through anything to get it, honey!$"
+	.string "Dis à maman ce que tu veux.\p"
+	.string "Si tu veux quelque chose, je ferai\n"
+	.string "tout pour te l’offrir, mon chéri!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "If I can get hold of the items here,\n"
-	.string "my POKéMON will get tougher.\p"
-	.string "You bet they will!\n"
-	.string "No question about it!$"
+	.string "Si j’arrive à me procurer ces objets, \n"
+	.string "mes POKéMON vont devenir plus forts.\p"
+	.string "Oui, plutôt deux fois qu’une!\n"
+	.string "Il me faut ces objets!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
-	.string "Hah?\n"
-	.string "What are you gawking at?\p"
-	.string "I don't like you staring at my plush\n"
-	.string "doll like that.\p"
-	.string "If you want it, go get one yourself!\n"
-	.string "Isn't that right, SMOOCHUM?$"
+	.string "Tiens?\n"
+	.string "Mais qu’est-ce que tu regardes, là?\p"
+	.string "Arrête de reluquer ma poupée\n"
+	.string "comme ça.\p"
+	.string "Si tu en veux une, tu n’as qu’à\n"
+	.string "l’acheter! Pas vrai, LIPPOUTI?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
-	.string "Did you know?\p"
-	.string "If you stretch your record at any of\n"
-	.string "the BATTLE facilities, they start\l"
-	.string "giving you more and more Battle Points.$"
+	.string "Dis, tu savais ça?\p"
+	.string "Si tu rejoues et améliores ton résultat\n"
+	.string "dans un bâtiment de la ZONE DE COMBAT,\l"
+	.string "tu obtiens plus de POINTS DE COMBAT.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
 	.string "A large poster with a SMOOCHUM print.$"

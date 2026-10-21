@@ -14,6 +14,11 @@
 
  [![](https://img.shields.io/github/all-contributors/rh-hideout/pokeemerald-expansion/upcoming)](CREDITS.md)
 
+### 🇫🇷 Remerciements & Crédits de la version Française
+Ce projet (`pokeemerald-expansion-fr`) combine le moteur moderne Gen 9 de **RH-Hideout** avec la traduction française officielle de Pokémon Émeraude :
+- **RHH (ROM Hacking Hideout)** & **DizzyEgg** pour le projet de décompilation étendu [`pokeemerald-expansion`](https://github.com/rh-hideout/pokeemerald-expansion/).
+- **kleeenexfeu** et les contributeurs du projet [`pokeemerald-french`](https://github.com/kleeenexfeu/pokeemerald-french) pour le travail colossal d'extraction et d'adaptation des scripts et dialogues originaux en français.
+
 If you use **`pokeemerald-expansion`**, please credit **RHH (Rom Hacking Hideout)**. Optionally, include the version number for clarity.
 
 ```
