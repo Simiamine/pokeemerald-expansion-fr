@@ -185,8 +185,8 @@ const u8 gText_EmptyString3[] = _("");
 static const u8 sText_TwoInGameTrainersDefeated[] = _("You defeated {B_TRAINER1_NAME_WITH_CLASS} and {B_TRAINER2_NAME_WITH_CLASS}!\p");
 
 // New battle strings.
-const u8 gText_drastically[] = _(" drastically");
-const u8 gText_severely[] = _("severely ");
+const u8 gText_drastically[] = _(" énormément ");
+const u8 gText_severely[] = _("fortement ");
 static const u8 sText_TerrainReturnedToNormal[] = _("The terrain returned to normal!"); // Unused
 
 const u8 *const gBattleStringsTable[STRINGID_COUNT] =
@@ -377,8 +377,8 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_PKMNTRACED]                           = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} CALQUE\n{B_BUFF2} du\l{B_BUFF1}!"),
     [STRINGID_STATSHARPLY]                          = gText_StatSharply,
     [STRINGID_STATHARSHLY]                          = COMPOUND_STRING("baisse beaucoup!"),
-    [STRINGID_STATROSE]                             = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} rose{B_BUFF2}!"),
-    [STRINGID_STATFELL]                             = COMPOUND_STRING("baisse!"),
+    [STRINGID_STATROSE]                             = COMPOUND_STRING("{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX}\nmonte{B_BUFF2}!"),
+    [STRINGID_STATFELL]                             = COMPOUND_STRING("{B_BUFF1} de {B_SCR_NAME_WITH_PREFIX}\n{B_BUFF2}baisse!"),
     [STRINGID_CRITICALHIT]                          = COMPOUND_STRING("Coup critique!"),
     [STRINGID_ONEHITKO]                             = COMPOUND_STRING("K.O. en un coup!"),
     [STRINGID_123POOF]                              = COMPOUND_STRING("{PAUSE 32}1, {PAUSE 15}2 et{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Tadaa!\p"),
