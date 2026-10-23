@@ -433,6 +433,18 @@ LilycoveCity_Harbor_EventScript_Sailor::
 	end
 
 LilycoveCity_Harbor_EventScript_SailorFerryAvailable::
+	goto_if_set FLAG_ENABLE_SHIP_SOUTHERN_ISLAND, LilycoveCity_Harbor_EventScript_SailorAlreadyGaveTickets
+	msgbox LilycoveCity_Harbor_Text_SailorGivesEventTickets, MSGBOX_DEFAULT
+	giveitem ITEM_EON_TICKET
+	giveitem ITEM_AURORA_TICKET
+	giveitem ITEM_OLD_SEA_MAP
+	giveitem ITEM_MYSTIC_TICKET
+	setflag FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
+	msgbox LilycoveCity_Harbor_Text_SailorTicketsExplanation, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_Harbor_EventScript_SailorAlreadyGaveTickets::
 	msgbox LilycoveCity_Harbor_Text_SailorFerryAvailable, MSGBOX_DEFAULT
 	release
 	end
@@ -583,3 +595,20 @@ LilycoveCity_Harbor_Text_SailorFerryAvailable:
 	.string "Les gens du CHANTIER NAVAL de\n"
 	.string "POIVRESSEL ont dû travailler dur.\p"
 	.string "Maintenant, à mon tour de bosser!$"
+
+LilycoveCity_Harbor_Text_SailorGivesEventTickets:
+	.string "Oh, vous êtes le nouveau MAÎTRE!\n"
+	.string "Félicitations pour votre titre!\p"
+	.string "Pendant mes voyages, j’ai découvert des\n"
+	.string "cartes et tickets maritimes oubliés…\p"
+	.string "Ils permettent de voguer vers des îles\n"
+	.string "légendaires interdites.\p"
+	.string "Un vrai MAÎTRE comme vous devrait les\n"
+	.string "avoir! Tenez, prenez tout ça!$"
+
+LilycoveCity_Harbor_Text_SailorTicketsExplanation:
+	.string "Présentez simplement ces tickets à\n"
+	.string "l’hôtesse à côté pour embarquer vers\l"
+	.string "l’ÎLE DU SUD, l’ÎLE AURORE, l’ÎLE\l"
+	.string "LOINTAINE et le ROC NOMBRI!\p"
+	.string "De redoutables POKéMON vous y attendent!$"
